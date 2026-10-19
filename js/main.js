@@ -52,6 +52,9 @@ function showTasks(list){
         newTask.innerHTML = `<span>${list[i]}</span>`;
         newTask.classList.add('task')
         container.append(newTask)
+
+        // console.log(divs)
+        // console.log(nodes)
     }
 }
 
@@ -107,3 +110,10 @@ btn5.addEventListener('click', function(){
     searchText.value = ""
     showTasks(tasks)
 })
+
+// //работа с NodeList
+// let divs = document.querySelectorAll("div") //Статическая коллекция
+// // console.log(divs) 
+
+// let divs2 = document.querySelector(".tasks").childNodes 
+// динамическая коллекция
