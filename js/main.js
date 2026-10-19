@@ -84,13 +84,13 @@ btn2.addEventListener('click', function(){
 
 //фильтрация только конкретных задач (срочные содержат "!")
 
-const btn3 = document.getElementById("btn3")
-btn3.addEventListener('click', function(){
-    let newTasks = tasks.filter(function(task){
-        return task.includes("!")
-    })
-    showTasks(newTasks)
-})
+// const btn3 = document.getElementById("btn3")
+// btn3.addEventListener('click', function(){
+//     let newTasks = tasks.filter(function(task){
+//         return task.includes("!")
+//     })
+//     showTasks(newTasks)
+// })
 
 //поиск по задаче
 
@@ -117,3 +117,6 @@ btn5.addEventListener('click', function(){
 
 // let divs2 = document.querySelector(".tasks").childNodes 
 // динамическая коллекция
+
+if(form-add-task("#immediate").checked){
+    newTask.classList.ass("immediate")}

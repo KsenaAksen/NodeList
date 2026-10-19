@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,19 @@
     <link rel="stylesheet" href="css/style.css">
     <script defer src="js/main.js"></script>
 </head>
+
 <body>
     <h3>Создание задачи</h3>
     <form id="form-add-task">
         <hr>
         <label for="task-text">Текст задачи</label><br>
         <input type="text" id="task-text" name="task-text"><br><br>
+
+        <input type="checkbox" id="immediate">
+        <label for="immediate">Срочная задача</label><br>
+
         <button type="submit">Добавить задачу</button>
+
     </form>
 
     <hr>
@@ -34,4 +41,5 @@
 
     </div>
 </body>
+
 </html>
