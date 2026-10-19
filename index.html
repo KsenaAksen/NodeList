@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Менеджер задач</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <h3>Создание задачи</h3>
+    <form id="form-add-task">
+        <hr>
+        <label for="task-text">Текст задачи</label><br>
+        <input type="text" id="task-text" name="task-text"><br><br>
+        <button type="submit">Добавить задачу</button>
+    </form>
+
+    <hr>
+
+    <div class="filters">
+        <button id="lowCase" type="button ">Все строчные</button>
+        <button id="btn1" type="button">Сортировать по алфавиту</button>
+        <button id="btn2" type="button">Сортировать против алфавита</button>
+        <button id="btn3" type="button">Оставить только срочные</button>
+        <input id="searchText" type="text" placeholder="Введите текст задачи">
+        <button id="btn4" type="button">Фильтровать по имени</button>
+        <button id="btn5" type="button">Сбросить</button>
+    </div>
+
+    <hr>
+
+    <div class="tasks">
+
+    </div>
+</body>
+</html>
